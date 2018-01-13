@@ -1,0 +1,32 @@
+﻿body {
+  background: lightgrey;
+  font-size: 25;
+}
+
+.paper {
+  height: 3250px;
+  width: 75%;
+  background-color: white;
+  border-radius: 20px;
+  margin-left: 12.5%;
+  margin-right: 12.5%;
+  box-shadow: 10px 10px 5px #888888;
+  position: relative;
+  padding-right: 7.5%;
+  padding-left: 7.5%;
+  box-sizing: border-box;
+  padding-top: 5%;
+  font-size: 30px;
+}
+
+span {
+  font-size: 40px;
+}
+
+x{
+  font-size: 20px;
+}
+
+b {
+text-align: center;
+}
