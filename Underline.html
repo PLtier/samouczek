@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+</head>
+
+<style>
+.box{
+ 
+ display: flex;
+ justify-content: space-around;
+ text-align: center;
+}
+.link{
+ text-decoration: none;
+}
+
+.link:hover{
+
+}
+
+.line{
+ 
+ 
+ width: 0px;
+ height: 10px;
+ background-color: red;
+transition: width 1.5s linear;
+}
+
+#container1:hover > .line{
+ 
+ width: 100%;
+}
+</style>
+<body>
+    <h1>
+        <div class="box">
+        
+        
+        <div id="container1">
+        <a class="link" href="google.com">GOOGLE</a>
+        <div class="line">
+        </div>
+        </div>
+        
+        
+        <div id="container1">
+        <a class="link" href="www.businessinsider.com">BUSINESSINSIDER</a>
+        <div class="line">
+        </div>
+        </div>
+        
+        
+        <div id="container1">
+        <a class="link" href="flipboard.com">FLIPBOARD</a>
+        <div class="line">
+        </div>
+        </div>
+        
+        </div>
+        
+        </h1>
+</body>
+</html>
